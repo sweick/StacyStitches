@@ -1,0 +1,209 @@
+.mobileHide  { 
+	display: none;
+	width: 0px; 
+	height: 0px;
+}
+.mobileFloatRight {
+	float: right;
+}
+.mobileFloatLeft {
+	float:left;
+}
+.italics  {
+	font-style:italic;
+}
+p  {
+	padding: .8em;
+	text-align: center;
+}
+span.floatRight  {
+	display: block;
+}
+h1, h2, h3, h4, h5	{
+	text-align: center;
+}
+h1  {
+	font-family: 'Love Ya Like A Sister', cursive;
+}	
+header  {
+	border: 1px solid #013d4a /*{c-bar-border}*/;
+	background: #013d4a /*{c-bar-background-color}*/;
+	color: #ffffff /*{c-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 0 /*{c-bar-shadow-radius}*/ #444444 /*{c-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #014351 /*{c-bar-background-start}*/), to( #003642 /*{c-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/);
+}
+body, div, form, input, select, textarea, button {
+	display: block;	
+	font-family: 'Simonetta', cursive;
+	 /*{global-font-family}*/;
+	 font-weight: bold;	
+}
+div, nav  {
+	border: 1px solid #7c0202 /*{c-body-border}*/;
+	color: #ffffff /*{c-body-color}*/;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #444444 /*{c-body-shadow-color}*/;
+	background: #590202 /*{c-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #610202 /*{c-body-background-start}*/), to( #500101 /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/);
+}
+nav a, form a {
+	display: block;
+	/*width:  100%; */
+	height: 40px;
+	text-decoration: none;
+	/*border: 1px solid #bfa169*/ /*{c-bup-border}*/;
+	background: #bfa169 /*{c-bup-background-color}*/;
+	padding-top: .7em;
+	padding-left: .4em;
+	color: #000000 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #eeeeee /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #d2b173 /*{c-bup-background-start}*/), to( #ab905e /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/);
+}
+nav a:first-child {
+	-webkit-border-top-left-radius: .6em;
+	-moz-border-top-left-radius: .6em;
+	-ms-border-top-left-radius: .6em;
+	-o-border-top-left-radius: .6em;
+	border-top-left-radius: .6em;
+	-webkit-border-top-right-radius: .6em;
+	-moz-border-top-right-radius: .6em;
+	-ms-border-top-right-radius: .6em;
+	-o-border-top-right-radius: .6em;
+	border-top-right-radius: .6em;
+}
+nav a:last-child  {
+-webkit-border-bottom-left-radius: .6em;
+	-moz-border-bottom-left-radius: .6em;
+	-ms-border-bottom-left-radius: .6em;
+	-o-border-bottom-left-radius: .6em;
+	border-bottom-left-radius: .6em;
+	-webkit-border-bottom-right-radius: .6em;
+	-moz-border-bottom-right-radius: .6em;
+	-ms-border-bottom-right-radius: .6em;
+	-o-border-bottom-right-radius: .6em;
+	border-bottom-right-radius: .6em;
+}
+nav a img, form a img  {
+	float: right;
+	padding-top: .3em;
+}
+form input, form textarea, form button  {
+	width: 90%;
+	font-size:  1.2em;
+	margin: 1em;
+	color: #000000 /*{c-bup-color}*/;
+	text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 0 /*{c-bup-shadow-radius}*/ #eeeeee /*{c-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #d2b173 /*{c-bup-background-start}*/), to( #ab905e /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #d2b173 /*{c-bup-background-start}*/, #ab905e /*{c-bup-background-end}*/);
+	-webkit-border-radius: .6em;
+	-moz-border-radius: .6em;
+	-ms-border-radius: .6em;
+	-o-border-radius: .6em;
+	border-radius: .6em;
+}
+::-webkit-input-placeholder {
+	color: black;
+	font-weight: 700;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: black;
+    font-weight: 700;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: black;
+    font-weight: 700;
+}
+:-ms-input-placeholder {  
+	color: black;
+    font-weight: 700;
+}
+form input, form button {
+	height: 40px;
+}
+form button  {
+	cursor:pointer; 
+}
+nav a:active, form button:active, form a:active {
+	border: 1px solid #ffffff /*{global-active-border}*/;
+	background: #ffffff /*{global-active-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{global-active-color}*/;
+	cursor: pointer;
+	text-shadow: 0 /*{global-active-shadow-x}*/ 1px /*{global-active-shadow-y}*/ 0 /*{global-active-shadow-radius}*/ #eeeeee /*{global-active-shadow-color}*/;
+	text-decoration: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FFFFFF /*{global-active-background-start}*/), to( #e5e5e5 /*{global-active-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #FFFFFF /*{global-active-background-start}*/, #e5e5e5 /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #FFFFFF /*{global-active-background-start}*/, #e5e5e5 /*{global-active-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #FFFFFF /*{global-active-background-start}*/, #e5e5e5 /*{global-active-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #FFFFFF /*{global-active-background-start}*/, #e5e5e5 /*{global-active-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #FFFFFF /*{global-active-background-start}*/, #e5e5e5 /*{global-active-background-end}*/);
+}
+
+/*following used for photoPage.html*/
+.oneItem  {
+	border: solid  .2em #BFA169;  /*tan*/
+	margin: .1em;
+	/*b/c the things inside this class are floated,
+	need "overflow: hidden" to get the border to 
+	go around all items */
+	overflow: hidden;  
+}	
+figure, figcaption  {
+	max-width: 267px;
+}
+figure  {
+	float: left;
+	margin: .3em 0 .3em .3em;
+}
+a.photos  {
+	max-width: 267px;
+	margin: 0;
+	text-decoration: none;
+	border-style:none;
+}
+figcaption  {
+	color: white;
+	background-color: #013D4A; /*dark blue*/
+	height: 1.5em;
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+}
+/* following used for favoritesPage.html */
+
+a.favorites  {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	overflow:hidden;
+}
+a.favorites   img  {
+	margin: .2em;
+	float: left;
+}
+.loveYa  {
+font-family: 'Love Ya Like A Sister', cursive;
+}
+.simonetta  {
+font-family: 'Simonetta', cursive;
+}

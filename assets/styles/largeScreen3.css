@@ -1,0 +1,267 @@
+/* colors using:  
+#013D4A;  /* dark blue
+#A6242F;  /*pink
+#44A68A;  /* teal blue
+#BFA169;  /*tan
+#590202;  /*dark burgundy
+	#7c0202;  /* burgundy
+*/
+html {
+	background-image:url('../images/backgroundStrawsThenTan3.png');
+	width:  100%;
+}
+body {
+	width:  80%;
+	margin: 0 auto;
+	font-family: 'Simonetta', cursive;
+	/*border: 1px solid #7c0202 {c-body-border}*/;
+	color: #ffffff /*{c-body-color}*/;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #444444 /*{c-body-shadow-color}*/;
+}
+header, nav  {
+	display: block;
+}
+header {
+	/*position: relative; */
+	background: #013d4a /*{c-bar-background-color}  dark blue*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #014351 /*{c-bar-background-start}*/), to( #003642 /*{c-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/);
+	margin: 1em auto  0;
+	/*padding:  .3em  0;*/
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+	padding: 1em  1em;
+	border:  .2em dashed rgba(130, 130,  130, .5);
+	-moz-box-shadow: 0 0 0 4px #013D4A, 2px 1px 4px 4px rgba(1,61,74,.5);
+	-webkit-box-shadow: 0 0 0 4px #013D4A, 2px 1px 4px 4px rgba(1,61,74,.5);
+	box-shadow: 0 0 0 4px #013D4A, 2px 1px 6px 4px rgba(1,61,74,.5);
+	
+}
+header  img  {
+	padding: .3em 0  .3em  1em;
+	vertical-align: middle;
+}
+header  h1  {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size:  3em;
+	display: inline;
+	padding-left: 2em;
+}
+h2, h3, h4, h5{  
+	text-align: center;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 2em;
+}
+h3  {
+	font-size: 1.6em;
+}
+.mainHide  {
+	width: 0px; 
+	height: 0px;
+	display:  none;
+}
+.floatRight  {
+	float: right;
+}
+.floatLeft  {
+	float: left;
+}
+.italics  {
+	font-style:italic;
+	font-size: 1.1em;
+}
+nav {
+	text-align: center;
+	/*position: relative;*/
+	width: 28%;
+	/*height:  43em;*/
+	overflow: hidden;
+	padding-left: .2em;
+	margin-top:  1em;
+	/*padding-right: 1em;*/
+	-webkit-border-image: url('../images/backgroundStrawsThenTan3.png');
+	-o-border-image: url('../images/backgroundStrawsThenTan3.png');
+	border-image: url('../images/backgroundStrawsThenTan3.png');
+	/*border: 1px solid #013d4a {c-bar-border}*/;
+	background: #013d4a /*{c-bar-background-color}*/;
+	color: #ffffff /*{c-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 0 /*{c-bar-shadow-radius}*/ #444444 /*{c-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #014351 
+	/*{c-bar-background-start}*/), to( #003642 /*{c-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #014351 /*{c-bar-background-start}*/, #003642 /*{c-bar-background-end}*/);
+	
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+
+}
+div.maroon  {
+	margin-top: 1em;
+	width:  69%;
+	background-color: #590202 /*{c-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #610202 /*{c-body-background-start}*/), to( #500101 /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #610202 /*{c-body-background-start}*/, #500101 /*{c-body-background-end}*/);
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+}
+p  {
+	padding:  0  1em;
+	font-size: 1.2em;
+	text-align: center;
+}
+a.menuButton {
+	display: block;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgb(238, 238, 238);
+	font-size: 1.2em;
+	padding:  .2em;
+	margin: 2.8em  .5em  2.8em  1em;
+	
+	max-width:  140px;
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+	
+	border-color: rgb(130,130,130);
+	border-color: rgba(130,130,130,.5);
+	border-style: solid;
+	background: transparent;
+}
+a.menuButton:link  {
+	text-decoration: none;
+	color: white;
+}
+a.menuButton:visited {
+	text-decoration: none;
+	color: white;
+    /*color: #2489ce {c-bar-link-visited}*/;
+}
+a.menuButton:hover {
+	text-decoration: none;
+	/*color: #2489ce {c-bar-link-hover}*/;
+	color: white;
+	border-color: #7c0202;
+}
+a.menuButton:active {
+	text-decoration: none;
+	color: white;
+	/*color: #2489ce {c-bar-link-active}*/;
+	border-color: #7c0202;
+}
+form  {
+	color: black;
+	margin: 1.5em  0  1.5em  4em;
+	width:  90%;
+}
+label {
+	color: white;
+}
+input, textarea  {
+	display: block;
+	font-size: 1.4em;
+	font-family: 'Simonetta', cursive;
+	background-image:url('../images/backgroundStrawsThenTan3.png');
+	margin:  .5em  0;
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+}
+textarea { 
+	width: 90%;
+}
+.submitButton  {
+	cursor:pointer; 
+	width:  10em;
+	border: solid .2em #013D4A; /*dark blue*/
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #013D4A; /*dark blue*/
+	height: 2.5em;
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+}
+.submitButton:hover  {
+	border:  solid  .2em white;
+}
+::-webkit-input-placeholder {
+	color: black;
+	font-weight: 700;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: black;
+    font-weight: 700;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: black;
+    font-weight: 700;
+}
+:-ms-input-placeholder {  
+	color: black;
+    font-weight: 700;
+}
+/* following used for photoPage.html  */
+figure, figcaption  {
+	max-width: 267px;
+}
+figure  { 
+	float: left;
+	margin: 1.5em 0 1.5em 1.5em;	
+}
+a.photos  {
+	max-width: 267px;
+	margin: 0;
+	cursor:pointer; 
+	text-decoration: none;
+}
+a.photos img {
+	border-style:none;
+}
+figcaption  {
+	color: white;
+	background-color: #013D4A; /*dark blue*/
+	height: 1.5em;
+	-webkit-border-radius: .6em /*{global-radii-blocks}*/;
+	border-radius: .6em /*{global-radii-blocks}*/;
+}
+.oneItem  {
+	border: solid  .2em #BFA169;  /*tan*/
+	margin: .5em;
+	/*b/c the things inside this class are floated,
+	need "overflow: hidden" to get the border to 
+	go around all items */
+	overflow: hidden;  
+}	
+/* following used for pricePage.html  */
+.table {
+	text-align: left;
+	border-bottom: solid 1px white;
+	padding: 0 0 .4em .5em;
+}	
+/* following used for favoritesPage.html */
+a.favorites   img  {
+	margin: 1em;	
+}
+a.favorites  {
+	display: block;
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
+

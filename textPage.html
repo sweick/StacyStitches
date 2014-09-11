@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Stacy, Stacy Krantz, Stacy's Stitches, sewing, mending, repair, alterations, Stacy Morton, Morton, Central Illinois">
+	<meta name="description" content="seamstress services for alterations, repair and sewing">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+    <title>Stacy's Stitches</title>
+	<link rel="shortcut icon" href="http://stacystitches.com/assets/images/favicon.ico"
+		type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Simonetta' 		rel='stylesheet' type='text/css'>
+
+
+	<!--large screen-->
+	<link rel="stylesheet" 
+		href="assets/styles/largeScreen3.css" type="text/css"  
+		media="only screen and (min-width: 625px)" /> 
+		
+	<!-- small/mobile screen -->
+	<link rel="stylesheet" 
+		media="only screen and (min-width: 0px) and (max-width: 624px)"
+		href="assets/styles/StacyStitchesBurgundyBlueB.css"	/>
+		
+	<script src="assets/scripts/validateTextMsg.js" type="text/javascript" ></script>
+</head>
+<body>
+<header>
+	<img  class="mobileHide " alt="blueSpool"
+			src="assets/images/blueSpoolCrop.png" />
+	<img  class="mobileHide" alt="yellowSpool"
+			src="assets/images/yellowSpoolCrop.png" />
+    <img  class="mobileHide" alt="greenSpool"
+			src="assets/images/greenSpoolCrop.png" />
+	<img  class="mobileHide " alt="redSpool"
+			src="assets/images/redSpoolCrop.png"  />
+	<h1>Stacy's&nbsp;Stitches</h1>
+</header>
+<div  class="maroon floatRight">
+	<br class="mobileHide"/>
+	<h2>Send Me a Text Message</h2>
+	<br class="mobileHide"/>
+</div>
+<div id="errMsg" class="maroon floatRight">
+
+<form method="post"
+		action="../cgi/FormMail.pl" >
+	<input type="hidden" name="recipient" 
+		value="INSERTPHONENUMBER@mms.uscc.net, INSERTEMAILADDRESS@yahoo.com" />
+	<input type="hidden" name="redirect" 
+        value="http://www.stacystitches.com/textMessageSent.html">
+	<!--[if  IE]>
+		<label for="phone">Enter your phone number here</label>
+	<![endif]-->
+	<input name="phone" id="phone" maxlength="13" size="18" 
+		placeholder="Your phone # here" autofocus required>
+	<!--[if  IE]>
+		<label for="msg">Enter your text message here</label>
+	<![endif]-->
+	<textarea cols="40" rows="5" name="message" id="msg" 
+		placeholder="Text message here" required></textarea>
+	
+	<button id="txtSubmit" class="submitButton" type="submit"  
+		value="Send Text">Send Text</button>
+</form>
+</div>	
+<nav>
+	<a class="menuButton" href="index.html">Home
+		<img class="mainHide" alt="rightArrow" 
+			src="assets/images/arrowRight22X22.png" /></a>
+	<a class="mainHide" href="#">Send Text
+		<img class="mainHide" alt="rightArrow" 
+			src="assets/images/arrowRight22X22.png" /></a>
+	<a class="menuButton" href="pricePage.html" >Price List
+		<img class="mainHide" alt="rightArrow"  
+			src="assets/images/arrowRight22X22.png" /></a>
+	<a class="menuButton" href="photoPage.html" >Photo Gallery
+		<img class="mainHide" alt="rightArrow"  
+			src="assets/images/arrowRight22X22.png" /></a>
+	<a class="menuButton" href="favoritesPage.html" >Favorite Links
+		<img class="mainHide" alt="rightArrow"  
+			src="assets/images/arrowRight22X22.png" /></a>
+	<a  class="menuButton" href="aboutPage.html" >About
+		<img class="mainHide" alt="rightArrow"  
+			src="assets/images/arrowRight22X22.png" /></a>
+</nav>
+
+</body>
+</html>
